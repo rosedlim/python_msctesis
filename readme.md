@@ -9,14 +9,14 @@ Put the description of your proyect
 git pull, para coger los archivos que estan en github
 
 
-cuando añadas nuevos archivos pon:
+Cuando añadas nuevos archivos pon:
 
 git add .  (para todo el dir)
 
 git add file_name 
 
-Cuando quieras subirlos pon
+Cuando quieras subirlos a github
 
+git add .
 git commit -m "mensaje del commit"
-
 git push
