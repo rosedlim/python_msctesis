@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "python_msctesis"
+version = "0.1.0"
+description = ""
+authors = ["Rosedlim"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.4.0"
+numpy = "^1.22.1"
+mpld3 = "^0.5.7"
+matplotlib = "^3.5.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
